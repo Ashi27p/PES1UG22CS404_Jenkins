@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ hello.cpp -o PES1UG22CS404-1'
+                    sh 'g++ missing_file.cpp -o PES1UG22CS404-1'
                 }
             }
         }
